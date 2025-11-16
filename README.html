@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HR Data Cleaning & Analysis – SQL Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+            background-color: #f8f9fa;
+        }
+        h1, h2, h3 {
+            color: #343a40;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            margin-top: 0;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        .file-links li {
+            margin-bottom: 5px;
+        }
+        details {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        summary {
+            font-weight: bold;
+            font-size: 1.05em;
+            outline: none;
+        }
+        code {
+            background-color: #f1f1f1;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>HR Data Cleaning & Analysis – SQL Project</h1>
+
+    <div class="section">
+        <h2>Project Overview</h2>
+        <p>
+            This project involved <strong>data cleaning, preprocessing, and analysis</strong> of HR datasets using <strong>MySQL</strong> to run SQL queries, 
+            and <strong>Power BI</strong> to visualize results and extract actionable insights. The goal was to understand employee demographics, 
+            tenure, turnover, and departmental performance.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Key Contributions</h2>
+        <ul>
+            <li><strong>Data Cleaning & Preprocessing:</strong> Corrected inconsistent column names, standardized date formats, handled missing values, and calculated new fields (e.g., employee age).</li>
+            <li><strong>Data Analysis:</strong> Explored employee demographics, tenure, job distribution, gender and race breakdowns, department performance, turnover rates, and hiring trends using MySQL queries.</li>
+            <li><strong>Insights Generation:</strong> Identified trends and actionable insights through Power BI visualizations.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>HR Database Cleaning Steps</h2>
+        <ul>
+            <li>Fixed column naming inconsistencies</li>
+            <li>Standardized date formats for <code>birthdate</code>, <code>hire_date</code>, and <code>termdate</code></li>
+            <li>Calculated employee ages</li>
+            <li>Handled missing or null values to ensure data integrity</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <details>
+            <summary>SQL Analyses Performed (Click to Expand)</summary>
+            <ul>
+                <li>Gender Breakdown of Employees</li>
+                <li>Race/Ethnicity Distribution</li>
+                <li>Age Group Distribution</li>
+                <li>Gender Across Age Groups</li>
+                <li>HQ vs Remote Employee Counts</li>
+                <li>Average Length of Employment (Terminated Employees)</li>
+                <li>Gender Distribution by Department & Job Title</li>
+                <li>Job Title Distribution</li>
+                <li>Department with Highest Turnover</li>
+                <li>Employee Distribution Across States</li>
+                <li>Employee Count Change Over Time</li>
+                <li>Tenure Distribution per Department</li>
+            </ul>
+            <p>SQL queries used for the above analyses are included in <code>hr_analysis_queries.sql</code>.</p>
+        </details>
+    </div>
+
+    <div class="section">
+        <details>
+            <summary>Insights from Data Analysis & Power BI Visuals (Click to Expand)</summary>
+            <ul>
+                <li>There are more <strong>male employees</strong> than female employees.</li>
+                <li><strong>Race/Ethnicity:</strong> White employees are the most dominant; Native Hawaiian and American Indian employees are the least represented.</li>
+                <li><strong>Age Distribution:</strong> Employees range from 23 to 60 years old. Majority are 25-34, followed by 35-44; smallest group is 55-64.</li>
+                <li><strong>Location:</strong> Most employees work at headquarters compared to remote locations.</li>
+                <li><strong>Average Length of Employment:</strong> Terminated employees averaged ~8 years.</li>
+                <li><strong>Gender Distribution Across Departments:</strong> Generally balanced, males slightly outnumber females.</li>
+                <li><strong>Department Turnover:</strong> Marketing highest, followed by Training; Research & Development, Support, Legal lowest.</li>
+                <li><strong>Employee Distribution by State:</strong> Ohio has the most employees.</li>
+                <li><strong>Employee Count Over Time:</strong> Net employee count increased, showing company growth.</li>
+                <li><strong>Tenure Distribution by Department:</strong> Average ~8 years; Legal & Auditing highest, Services, Sales & Marketing lowest.</li>
+            </ul>
+        </details>
+    </div>
+
+    <div class="section">
+        <h2>Project Files</h2>
+        <ul class="file-links">
+            <li><a href="Human Resources.csv" target="_blank">HR Dataset (CSV)</a></li>
+            <li><a href="hr_analysis_queries.sql" target="_blank">SQL Queries</a></li>
+            <li><a href="HR_Employee_Report.pbix" target="_blank">Power BI Visuals</a></li>
+            <li><a href="HR_Employee_Report.pdf" target="_blank">Project Report (PDF)</a></li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Tools Used</h2>
+        <ul>
+            <li><strong>MySQL:</strong> Ran queries for data cleaning, preprocessing, and analysis.</li>
+            <li><strong>Power BI:</strong> Visualized SQL results and generated actionable insights.</li>
+            <li><strong>Python / Excel:</strong> Optional for additional analysis or preprocessing.</li>
+        </ul>
+    </div>
+
+</body>
+</html>
