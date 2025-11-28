@@ -1,4 +1,7 @@
 # HR Data Cleaning & Analysis – SQL Project
+## Dashboard
+<img width="1161" height="653" alt="Dashboard1" src="https://github.com/user-attachments/assets/a5cc454f-f26d-45ba-b70b-f071eafcfeaf" />
+<img width="1262" height="662" alt="Dashboard2" src="https://github.com/user-attachments/assets/7c7b69f4-d824-4ed9-b0e0-78b2c606a76e" />
 
 ## Project Overview
 This project involved **data cleaning, preprocessing, and analysis** of HR datasets using **MySQL** for SQL queries and **Power BI** for visualization. The goal was to understand employee demographics, tenure, turnover, and departmental performance.
